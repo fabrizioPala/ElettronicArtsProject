@@ -13,6 +13,10 @@
     background-size: cover; /* Imposta la modalità di copertura per l'immagine di sfondo */
     background-repeat: no-repeat;
 }
+.yearGaming{
+    height:97px;
+    background-color:97px;
+}
 .games{
     height: 1039px;
     background-color: rosybrown;
