@@ -1,30 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav class="nav1">NavNera</nav>
-      <nav class="nav2">Nav Bianca</nav>
+      <div class="navbar" id="navbar1">
+        <!-- Prima Navbar -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
+
+    <div class="navbar" id="navbar2">
+        <!-- Seconda Navbar -->
+        <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+     
     </header>
     <div class="heroSection"></div>
-    <div class="yearGaming"></div> 
+    <div class="yearGaming"></div>
 
-    <div class="games">Giochi in Evidenza: contiene 6 cards e un bottone "ultimi giochi"</div>
+    <div class="games">
+      Giochi in Evidenza: contiene 6 cards e un bottone "ultimi giochi"
+    </div>
     <div class="ultimeNovità">Ultime novità</div>
     <nav class="nav3">Nav3</nav>
     <div class="notizie">notizie,contiene anche il bottone "più dettagli"</div>
-    <div class="EAplay">Ea Play
-    <img class="logo" src="logoEA.svg" alt="logoEA"></div>
+    <div class="EAplay">
+      Ea Play <img class="logo" src="logoEA.svg" alt="logoEA" />
+    </div>
     <div class="Giocatori">giocatori e genitori</div>
     <div class="condizioni">condizioni</div>
+
     <footer>
-      <div class="footer1">footer1</div>
-      <div class="footer2">footer2</div>
+      <local-footer>
+        <div><a href="https://www.ea.com/it-it" title="EA"><img class="eapl-network-footer__logo" src="https://media.contentapi.ea.com/content/dam/eacom/common/medallion-violet.png" alt=""></a></div>
+
+      </local-footer>
+
+      <ea-network-footer>
+        <ea-network-legal class="ea-network-legal">
+          <div>
+          </div>
+
+          <div>
+          </div>
+          <img
+            style="border: none"
+            src="//privacy-policy.truste.com/privacy-seal/seal?rid=f1a11c5d-0232-4077-8498-2e69a38c1335"
+            alt="TRUSTe"
+          />
+        </ea-network-legal>
+      </ea-network-footer>
+  
     </footer>
   </body>
-</html> 
+</html>
