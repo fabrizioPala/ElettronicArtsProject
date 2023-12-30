@@ -89,14 +89,72 @@ body {
 }
 
 /* --------------------- Salvatore ------------------ */
-footer {
-  padding: 0 6em;
+
+.local-footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #eaeaea;
 }
+
+.local-footer-container {
+  background-color: transparent;
+  display: flex;
+  border: 1px solid red;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 6em 60px 6em;
+  height: fit-content;
+  justify-content: space-between;
+}
+.local-footer-links {
+  flex-wrap: wrap;
+  border: 1px solid red;
+  display: flex;
+  width: auto;
+}
+
+.local-footer-links a {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  line-height: 142%;
+  height: 100%;
+  margin-right: 40px;
+  align-content: center;
+  font-size: 16px;
+  font-family: "Electronic Arts Text";
+  text-decoration: none;
+  color: black;
+}
+
+.local-footer-social {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  width: 13em;
+}
+
+.social-links-title {
+  border: 1px solid red;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 10px;
+  font-family: "Electronic Arts Display";
+  text-decoration: none;
+  color: black;
+}
+
+.social-links {
+  border: 1px solid red;
+}
+
 .network {
+  padding: 0 6em;
   display: flex;
   justify-content: center;
   max-width: 1120px;
-  padding-top: 20px;
+  padding-top: 15px;
   margin: 0 auto;
   margin-bottom: 3.2em;
 }
@@ -110,7 +168,6 @@ footer {
 .ea-network-content {
   display: flex;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .network-links {
@@ -134,7 +191,6 @@ footer {
   grid-column: 2;
   display: grid;
   gap: 2.5em;
-  /* margin-left: auto; */
 }
 
 .network-btn {
@@ -181,16 +237,15 @@ footer {
   align-items: center;
   line-height: 142%;
   margin-top: 1px;
-  margin-bottom: 5PX;
+  margin-bottom: 5px;
   margin-right: 35px;
   font-size: 14px;
   font-family: "Electronic Arts Text";
   text-decoration: none;
   color: black;
-
 }
 
-.copyright{
+.copyright {
   width: 100%;
   max-width: 640px;
   margin-top: 10px;
@@ -198,7 +253,6 @@ footer {
   line-height: 20px;
   font-family: "Electronic Arts Text";
   font-size: 14px;
-
 }
 .truste {
   display: flex;
