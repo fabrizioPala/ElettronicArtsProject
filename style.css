@@ -89,39 +89,41 @@ body {
 }
 
 /* --------------------- Salvatore ------------------ */
-
+footer {
+  padding: 0 6em;
+}
 .network {
   display: flex;
-  max-width: 1250px;
+  justify-content: center;
+  max-width: 1120px;
   padding-top: 20px;
   margin: 0 auto;
+  margin-bottom: 3.2em;
 }
 
 .network_logo {
   height: 100%;
-  margin: 0 2em 0 5em;
+  padding: 0;
+  margin: 0 2em 0 0;
 }
 
 .ea-network-content {
   display: flex;
   width: 100%;
-  border: 1px solid red;
-  margin-right: 4em;
+  /* border: 1px solid red; */
 }
 
 .network-links {
   grid-column: 1;
   padding: 1em 0 0 0;
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
 }
 
 .network-links a {
   line-height: 142%;
-  padding: 0 1.2em 1em 0;
-  margin-right: 1.5em;
+  margin-right: 48px;
+  margin-bottom: 20px;
   font-size: 16px;
   font-family: "Electronic Arts Text";
   text-decoration: none;
@@ -129,11 +131,10 @@ body {
 }
 
 .network-selection {
-  flex: end;
-  margin-left: 3em;
   grid-column: 2;
   display: grid;
-  gap: 2.3em;
+  gap: 2.5em;
+  /* margin-left: auto; */
 }
 
 .network-btn {
@@ -142,7 +143,7 @@ body {
   grid-template-rows: 2fr;
   height: 4em;
   width: 12.7em;
-  padding: 0.5em 1.2em;
+  padding: 0.5em 1.4em;
   border: 2px solid #d4d4d4;
   border-radius: 3px;
   font-family: "Electronic Arts Text";
@@ -156,7 +157,6 @@ body {
 
 .btn-link {
   display: flex;
-  flex: start;
   align-items: center;
   color: #5a5a58;
 }
@@ -164,7 +164,44 @@ body {
 .language {
   grid-column: 2;
 }
-/* .truste{
-    grid-column: 1;
-    order: 3;
-} */
+
+.ea-network-legal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal-notes {
+  display: block;
+  max-width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.legal-notes a {
+  align-items: center;
+  line-height: 142%;
+  margin-top: 1px;
+  margin-bottom: 5PX;
+  margin-right: 35px;
+  font-size: 14px;
+  font-family: "Electronic Arts Text";
+  text-decoration: none;
+  color: black;
+
+}
+
+.copyright{
+  width: 100%;
+  max-width: 640px;
+  margin-top: 10px;
+  justify-self: flex-start;
+  line-height: 20px;
+  font-family: "Electronic Arts Text";
+  font-size: 14px;
+
+}
+.truste {
+  display: flex;
+  flex-direction: column-reverse;
+  width: fit-content;
+}
