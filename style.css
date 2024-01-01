@@ -88,6 +88,7 @@ body {
 
 .ea-condition {
   background-color: #eaeaea;
+  padding: 0 4.7em;
 }
 
 .ea-condition p {
@@ -130,7 +131,7 @@ footer {
   display: flex;
   width: auto;
   column-gap: 40px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .local-footer-links a {
@@ -227,9 +228,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
-  height: 4em;
+  height: 4.05em;
   width: 12.7em;
-  padding: 0.5em 1.4em;
+  padding: 0.6em 1.6em;
   border: none;
   font-family: "Electronic Arts Text";
   font-size: 15px;
@@ -258,6 +259,40 @@ footer {
 
 .price {
   grid-column: 1;
+}
+
+.price-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-selector img {
+  width: 20px;
+}
+
+.language-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-selector img {
+  width: 20px;
+}
+
+.flag-selection {
+  height: 11px;
+  width: 16px;
+  background-image: url(./flags/icons8-italia-30.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.country-selection {
+  width: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .btn-link {
@@ -298,7 +333,7 @@ footer {
   max-width: 640px;
   margin-top: 7px;
   justify-self: flex-start;
-  line-height: 20px;
+  line-height: 18px;
   font-family: "Electronic Arts Text";
   font-size: 14px;
 }
@@ -306,5 +341,4 @@ footer {
   display: flex;
   flex-direction: column-reverse;
   width: fit-content;
-  padding-bottom: 3px;
 }
