@@ -218,6 +218,7 @@ footer {
 }
 
 .network-selection {
+  position: relative;
   grid-column: 2;
   display: grid;
   gap: 2.5em;
@@ -234,7 +235,7 @@ footer {
   border: none;
   font-family: "Electronic Arts Text";
   font-size: 15px;
-  background-color: transparent;
+  background-color: #f3f3f3;
   transition: transform 0.3s ease-in-out;
 }
 .network-btn::before {
@@ -244,30 +245,122 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  border-radius: 3px;
+  border-radius: 2.5px;
   border: 2px solid #c2c2c2;
   transition: border-width 0.1s, bottom 0.1s, left 0.1s, right 0.1s, top 0.1s;
   pointer-events: none;
 }
+/* -------------------------------------------------------------------------------------------------- */
+.price:focus .price-items {
+  display: flex;
+  z-index: 2;
+}
 
-.network-btn:hover.network-btn::before {
+.price:focus * {
+  z-index: 4;
+}
+
+.price:focus .price-selector img {
+  transform: rotateX(180deg);
+}
+
+.price:focus.network-btn::before {
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  top: -3.1px;
+  border: 3px solid #c2c2c2;
+  border-top: none;
+  border-radius: 2.5px;
+  background-color: #f3f3f3;
+  z-index: 3;
+  box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.network-btn:not(:focus):hover.network-btn::before {
   bottom: -2px;
   left: -2px;
   right: -2px;
   top: -2px;
 }
 
-.price {
+/* .price {
   grid-column: 1;
-}
+} */
 
 .price-selector {
   display: flex;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .price-selector img {
   width: 20px;
+}
+
+.price-items {
+  display: none;
+  padding: 13px 5px;
+  max-height: 552px;
+  border: 3px solid #c2c2c2;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -28px;
+  left: auto;
+  bottom: 100%;
+  background-color: #f3f3f3;
+  font-size: 15px;
+  box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.price-items > :first-child {
+  padding-left: 24px;
+}
+
+.price-items-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 28px;
+}
+
+.price-items-column :first-child {
+  border-top: none;
+}
+
+.price-item {
+  align-items: center;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #eaeaea;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: left;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.price-item span {
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  padding-left: 8px;
+  padding-right: 7px;
+  text-align: left;
+  transition: transform 0.1s ease-in-out;
+}
+
+.price-item img {
+  height: 16px;
+  max-width: 16px;
+  min-width: 16px;
+  /* visibility: hidden; */
+  width: 16px;
+}
+
+.price-item span:hover {
+  transform: translateX(9px);
 }
 
 .language-selector {
@@ -278,6 +371,109 @@ footer {
 .language-selector img {
   width: 20px;
 }
+/*---------------------------- */
+
+.language:focus .language-items {
+  display: flex;
+  z-index: 2;
+}
+
+.language:focus * {
+  z-index: 4;
+}
+
+.language:focus .language-selector img {
+  transform: rotateX(180deg);
+}
+
+.language:focus.network-btn::before {
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  top: -3.1px;
+  border: 3px solid #c2c2c2;
+  border-top: none;
+  border-radius: 2.5px;
+  background-color: #f3f3f3;
+  z-index: 3;
+  box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.network-btn:not(:focus):hover.network-btn::before {
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  top: -2px;
+}
+
+
+
+.language-items {
+  display: none;
+  padding: 13px 5px;
+  max-height: 552px;
+  border: 3px solid #c2c2c2;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -28px;
+  left: auto;
+  bottom: 100%;
+  background-color: #f3f3f3;
+  font-size: 15px;
+  box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.language-items > :first-child {
+  padding-left: 24px;
+}
+
+.language-items-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 28px;
+}
+
+.language-items-column :first-child {
+  border-top: none;
+}
+
+.language-item {
+  align-items: center;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #eaeaea;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: left;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.language-item span {
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  padding-left: 8px;
+  padding-right: 7px;
+  text-align: left;
+  transition: transform 0.1s ease-in-out;
+}
+
+.language-item img {
+  height: 16px;
+  max-width: 16px;
+  min-width: 16px;
+  /* visibility: hidden; */
+  width: 16px;
+}
+
+.language-item span:hover {
+  transform: translateX(9px);
+}
+
+/* --------------------------------- */
 
 .flag-selection {
   height: 11px;
