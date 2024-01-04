@@ -11,7 +11,6 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
-
 /* ---------------------------------- evento click bottoni footer ---------------------------- */
 
 let networkButtons = document.querySelectorAll(".network-btn");
@@ -33,6 +32,7 @@ networkButtons.forEach((button, index) => {
   });
 });
 
+
 document.addEventListener("click", () => {
   networkButtons.forEach((button, index) => {
     button.blur();
@@ -40,3 +40,60 @@ document.addEventListener("click", () => {
   });
 });
 
+
+/* -----------------------------------------------------evento click price-item ----------------------------------------- */
+
+const priceItems = document.querySelectorAll(".price-item");
+
+priceItems.forEach(priceItem => {
+  priceItem.addEventListener('click', function() {
+    const priceText = this.querySelector('span').textContent;
+
+    // Aggiorna il testo di <span class="price-selection">
+    document.querySelector('.price-selection').textContent = priceText;
+
+    // Rimuovi la classe "visible" da tutti gli elementi
+    document.querySelectorAll('.price-item img.checked-img').forEach(img => {
+      img.classList.add('hidden');
+      img.classList.remove('visible');
+    });
+
+    // Aggiungi la classe "visible" all'immagine all'interno dell'elemento cliccato
+    const checkedImg = this.querySelector('img.checked-img');
+    if (checkedImg) {
+      checkedImg.classList.add('visible');
+    }
+  });
+});
+
+
+
+
+/* -----------------------------------------------------evento click language-item ----------------------------------------- */
+
+const languageItems = document.querySelectorAll('.language-item');
+
+languageItems.forEach(languageItem => {
+  languageItem.addEventListener('click', function() {
+    const countryText = this.querySelector('.country-language').textContent;
+
+    document.querySelector('.country-selection').textContent = countryText;
+
+    document.querySelectorAll('.language-item img.checked-img').forEach(img => {
+      img.classList.add('hidden');
+      img.classList.remove('visible');
+    });
+
+    const checkedImg = this.querySelector('img.checked-img');
+    if (checkedImg) {
+      checkedImg.classList.add('visible');
+    }
+
+    const languageFlagImg = this.querySelector('.language-item-flag');
+    const flagSelectionImg = document.querySelector('.flag-selection');
+    
+    if (languageFlagImg && flagSelectionImg) {
+      flagSelectionImg.src = languageFlagImg.src;
+      flagSelectionImg.alt = languageFlagImg.alt;
+  }});
+});

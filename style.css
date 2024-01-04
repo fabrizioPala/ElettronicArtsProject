@@ -86,6 +86,16 @@ body {
 
 /* --------------------- Salvatore ------------------ */
 
+/* Aggiungi queste regole al tuo foglio di stile CSS */
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+
 .ea-condition {
   background-color: #eaeaea;
   padding: 0 4.7em;
@@ -218,6 +228,9 @@ footer {
 }
 
 .network-selection {
+  display: flex;
+  justify-content: start;
+  margin-right: auto;
   position: relative;
   grid-column: 2;
   display: grid;
@@ -230,7 +243,10 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
   height: 4.05em;
-  width: 12.7em;
+  /* width: 12.7em; */
+  min-width: 12.7em;
+  max-width: 14em;
+
   padding: 0.6em 1.6em;
   border: none;
   font-family: "Electronic Arts Text";
@@ -311,6 +327,7 @@ footer {
   background-color: #f3f3f3;
   font-size: 15px;
   box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
+
 }
 
 .price-items > :first-child {
@@ -321,6 +338,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-right: 28px;
+  min-width: 120px;;
 }
 
 .price-items-column :first-child {
@@ -351,11 +369,10 @@ footer {
   transition: transform 0.1s ease-in-out;
 }
 
-.price-item img {
+.price-item > img {
   height: 16px;
   max-width: 16px;
   min-width: 16px;
-  /* visibility: hidden; */
   width: 16px;
 }
 
@@ -368,11 +385,20 @@ footer {
   justify-content: space-between;
 }
 
-.language-selector img {
+#language-drop{
   width: 20px;
+  height: 20px;
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: 1.6em;
 }
 /*---------------------------- */
-
+.language {
+  padding-right: 0;
+  width: fit-content;
+}
 .language:focus .language-items {
   display: flex;
   z-index: 2;
@@ -382,7 +408,7 @@ footer {
   z-index: 4;
 }
 
-.language:focus .language-selector img {
+.language:focus .language-selector > img {
   transform: rotateX(180deg);
 }
 
@@ -406,10 +432,9 @@ footer {
   top: -2px;
 }
 
-
-
 .language-items {
   display: none;
+  /* display: flex; */
   padding: 13px 5px;
   max-height: 552px;
   border: 3px solid #c2c2c2;
@@ -433,10 +458,6 @@ footer {
   margin-right: 28px;
 }
 
-.language-items-column :first-child {
-  border-top: none;
-}
-
 .language-item {
   align-items: center;
   border-top-style: solid;
@@ -445,27 +466,35 @@ footer {
   cursor: pointer;
   display: flex;
   height: 45px;
-  justify-content: left;
   position: relative;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.language-item span {
-  display: flex;
-  justify-content: left;
+.language-item:first-child {
+  border-top: none;
+}
+
+.language-item > span {
   flex-grow: 1;
-  padding-left: 8px;
+  /* min-width: 250px; */
   padding-right: 7px;
   text-align: left;
   transition: transform 0.1s ease-in-out;
 }
 
-.language-item img {
+img.language-item-flag {
+  height: 14px;
+  margin-right: 7px;
+  max-width: 16px;
+  min-width: 16px;
+  width: 16px;
+}
+
+.language-item > img {
   height: 16px;
   max-width: 16px;
   min-width: 16px;
-  /* visibility: hidden; */
   width: 16px;
 }
 
@@ -473,22 +502,24 @@ footer {
   transform: translateX(9px);
 }
 
+#spaced{
+  margin-left:28px;
+}
+
 /* --------------------------------- */
 
-.flag-selection {
-  height: 11px;
+img.flag-selection {
+  padding-top: 1px;
   width: 16px;
-  background-image: url(./flags/icons8-italia-30.png);
-  background-size: cover;
-  background-position: center;
+  height: 16px;
   margin-right: 8px;
-  margin-top: 3px;
+  margin-top: auto;
 }
 
 .country-selection {
-  width: auto;
   margin-right: auto;
   text-align: left;
+  width: auto;
 }
 
 .btn-link {
@@ -499,6 +530,7 @@ footer {
 
 .language {
   grid-column: 2;
+  width: max-content;
 }
 
 .ea-network-legal {
