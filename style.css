@@ -99,6 +99,13 @@ body {
   padding: 0 4.7em;
 }
 
+@media (max-width: 1023px) {
+  .ea-condition {
+    display: block;
+    padding: 0 60px 0;
+  }
+}
+
 .ea-condition p {
   box-sizing: border-box;
   border-bottom: 1px solid #969696;
@@ -131,9 +138,16 @@ footer {
   display: flex;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 25px 4.7em 45px 4.7em;
+  padding: 25px 4.7em 50px 4.7em;
   height: fit-content;
   justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+  .local-footer-container {
+    display: block;
+    padding: 12px 60px 80px;
+  }
 }
 
 .local-footer-links {
@@ -142,6 +156,12 @@ footer {
   width: auto;
   column-gap: 40px;
   justify-content: left;
+}
+
+@media (max-width: 1023px) {
+  .local-footer-links {
+    column-gap: 32px;
+}
 }
 
 .local-footer-links a {
@@ -172,11 +192,25 @@ footer {
   text-align: end;
 }
 
+@media (max-width: 1023px) {
+  .social-links-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+}
+
 .social-links {
   display: flex;
   justify-content: end;
   gap: 17px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 1023px) {
+  .social-links {
+    justify-content: left;
+  }
 }
 
 .social-icons img {
@@ -199,6 +233,14 @@ footer {
   background-color: inherit;
 }
 
+@media (max-width: 1023px) {
+  .network {
+    display: block;
+    padding: 12px 60px 80px;
+  }
+}
+
+
 .network_logo {
   height: 100%;
   padding: 0;
@@ -211,12 +253,27 @@ footer {
   background-color: inherit;
 }
 
+@media (max-width: 1023px) {
+  .ea-network-content {
+    display: block;
+  }
+}
+
+
+
 .network-links {
   grid-column: 1;
   padding: 0.8em 0 0 0;
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1023px) {
+  .network-links {
+    column-gap: 32px;
+  }
+}
+
 
 .network-links a {
   line-height: 142%;
@@ -228,15 +285,34 @@ footer {
   color: black;
 }
 
+@media (max-width:1023px){
+  .network-links a {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+}
+
 .network-selection {
   display: flex;
   justify-content: start;
   margin-right: auto;
   position: relative;
-  grid-column: 2;
+  /* grid-column: 2; */
   display: grid;
   gap: 2.5em;
 }
+
+@media (max-width:1023px){
+  .network-selection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 735px;
+    margin-right: 36px;
+  }
+
+}
+
 
 .network-btn {
   position: relative;
@@ -253,6 +329,22 @@ footer {
   background-color: #f3f3f3;
   transition: transform 0.3s ease-in-out;
 }
+
+@media (max-width:1023px){
+  .network-btn {
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: 4.4em;
+
+
+  }
+  .network-btn.language {
+    width: 100%;
+  }
+
+
+}
+
 
 .network-btn::before {
   content: "";
@@ -333,7 +425,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-right: 28px;
-  min-width: 120px;;
+  min-width: 120px;
 }
 
 .price-items-column :first-child {
@@ -380,11 +472,11 @@ footer {
   justify-content: space-between;
 }
 
-#language-drop{
+#language-drop {
   width: 20px;
   height: 20px;
   position: relative;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: 1.6em;
@@ -394,6 +486,14 @@ footer {
   padding-right: 0;
   width: fit-content;
 }
+
+@media (max-width:1023px){
+  .language {
+    width: 100%;
+  }
+
+}
+
 .language:focus .language-items {
   display: flex;
   z-index: 2;
@@ -492,8 +592,8 @@ img.language-item-flag {
   transform: translateX(9px);
 }
 
-#spaced{
-  margin-left:28px;
+#spaced {
+  margin-left: 28px;
 }
 
 img.flag-selection {
@@ -526,11 +626,28 @@ img.flag-selection {
   justify-content: space-between;
 }
 
+@media (max-width:1023px){
+  .ea-network-legal {
+    display: block;
+  }
+  
+}
+
 .legal-notes {
   display: block;
   max-width: 640px;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media (max-width:1023px){
+  .legal-notes {
+    column-gap: 32px;
+    max-width: 100%;
+    padding-right: 35px;
+
+  }
+
 }
 
 .legal-notes a {
@@ -542,6 +659,12 @@ img.flag-selection {
   font-family: "Electronic Arts Text";
   text-decoration: none;
   color: black;
+}
+@media (max-width:1023px){
+  .legal-notes a {
+    margin-right: 0;
+  }
+
 }
 
 .copyright {
@@ -558,4 +681,11 @@ img.flag-selection {
   display: flex;
   flex-direction: column-reverse;
   width: fit-content;
+}
+
+@media (max-width:1023px){
+  .truste {
+    margin-top: 10px;
+  }
+
 }
