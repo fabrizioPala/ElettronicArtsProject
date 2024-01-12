@@ -139,10 +139,42 @@ body {
   }
   
   .EAplay {
-    height: 549px;
+    position:relative;
+    height: 530px;
     background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-grid-evergreen-hero-md-7x2-xl.jpg.adapt.crop5x2.1455w.jpg);
     background-size:contain;
     background-repeat: no-repeat;
+  }
+ 
+  .EaPlayContent{
+   position:absolute;
+   top: 136px;
+   left:100px;
+   width: 39%;
+   
+ 
+  }
+  .EaPlayPar{
+    position:absolute;
+    color:white;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight:200;
+    top: 60px;
+  }
+  .EaPlayButton{
+    width: 153px;
+    height: 51px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    border-radius: 4px;
+    margin-right:26px;
+    position:relative;
+    top:120px;
+    left:-250px;
+    font-size: 17px;
+
   }
   
   .Giocatori {
