@@ -81,6 +81,7 @@ body {
     left:108px ;
     
   }
+ 
   .transparentBtn{
     width: 153px;
     height: 51px;
@@ -139,8 +140,8 @@ body {
   
   .EAplay {
     height: 549px;
-    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-grid-evergreen-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg);
-    background-size:cover;
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-grid-evergreen-hero-md-7x2-xl.jpg.adapt.crop5x2.1455w.jpg);
+    background-size:contain;
     background-repeat: no-repeat;
   }
   
