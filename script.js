@@ -32,7 +32,6 @@ networkButtons.forEach((button, index) => {
   });
 });
 
-
 document.addEventListener("click", () => {
   networkButtons.forEach((button, index) => {
     button.blur();
@@ -40,74 +39,81 @@ document.addEventListener("click", () => {
   });
 });
 
-
 /* -----------------------------------------------------evento click price-item ----------------------------------------- */
 
 const priceItems = document.querySelectorAll(".price-item");
 
-
-priceItems.forEach(priceItem => {
-
-
-  priceItem.addEventListener('mouseover', function() {
-    document.querySelectorAll('.price-item').forEach(item => {
-      item.classList.remove('bluSpan');
+priceItems.forEach((priceItem) => {
+  priceItem.addEventListener("mouseover", function () {
+    // Rimuovi la classe ".bluSpan" da tutti gli elementi
+    document.querySelectorAll(".price-item").forEach((item) => {
+      item.classList.remove("bluSpan");
     });
 
-    this.classList.add('bluSpan');
+    // Aggiungi la classe ".bluSpan" all'elemento su cui è avvenuto il passaggio del mouse
+    this.classList.add("bluSpan");
   });
 
+  // ----------------------------------
 
-// ----------------------------------
-
-  priceItem.addEventListener('click', function() {
-    const priceText = this.querySelector('span').textContent;
+  priceItem.addEventListener("click", function () {
+    const priceText = this.querySelector("span").textContent;
 
     // Aggiorna il testo di <span class="price-selection">
-    document.querySelector('.price-selection').textContent = priceText;
+    document.querySelector(".price-selection").textContent = priceText;
 
     // Rimuovi la classe "visible" da tutti gli elementi
-    document.querySelectorAll('.price-item img.checked-img').forEach(img => {
-      img.classList.add('hidden');
-      img.classList.remove('visible');
+    document.querySelectorAll(".price-item img.checked-img").forEach((img) => {
+      img.classList.add("hidden");
+      img.classList.remove("visible");
     });
 
     // Aggiungi la classe "visible" all'immagine all'interno dell'elemento cliccato
-    const checkedImg = this.querySelector('img.checked-img');
+    const checkedImg = this.querySelector("img.checked-img");
     if (checkedImg) {
-      checkedImg.classList.add('visible');
+      checkedImg.classList.add("visible");
     }
   });
 });
 
-
-
-
 /* -----------------------------------------------------evento click language-item ----------------------------------------- */
 
-const languageItems = document.querySelectorAll('.language-item');
+const languageItems = document.querySelectorAll(".language-item");
 
-languageItems.forEach(languageItem => {
-  languageItem.addEventListener('click', function() {
-    const countryText = this.querySelector('.country-language').textContent;
-
-    document.querySelector('.country-selection').textContent = countryText;
-
-    document.querySelectorAll('.language-item img.checked-img').forEach(img => {
-      img.classList.add('hidden');
-      img.classList.remove('visible');
+languageItems.forEach((languageItem) => {
+  languageItem.addEventListener("mouseover", function () {
+    // Rimuovi la classe ".bluSpan" da tutti gli elementi
+    document.querySelectorAll(".language-item").forEach((item) => {
+      item.classList.remove("bluSpan");
     });
 
-    const checkedImg = this.querySelector('img.checked-img');
+    // Aggiungi la classe ".bluSpan" all'elemento su cui è avvenuto il passaggio del mouse
+    this.classList.add("bluSpan");
+  });
+
+  languageItem.addEventListener("click", function () {
+    const countryText = this.querySelector(".country-language").textContent;
+
+    document.querySelector(".country-selection").textContent = countryText;
+
+    document
+      .querySelectorAll(".language-item img.checked-img")
+      .forEach((img) => {
+        img.classList.add("hidden");
+        img.classList.remove("visible");
+      });
+
+    const checkedImg = this.querySelector("img.checked-img");
     if (checkedImg) {
-      checkedImg.classList.add('visible');
+      checkedImg.classList.add("visible");
     }
 
-    const languageFlagImg = this.querySelector('.language-item-flag');
-    const flagSelectionImg = document.querySelector('.flag-selection');
-    
+    const languageFlagImg = this.querySelector(".language-item-flag");
+    const flagSelectionImg = document.querySelector(".flag-selection");
+
     if (languageFlagImg && flagSelectionImg) {
       flagSelectionImg.src = languageFlagImg.src;
       flagSelectionImg.alt = languageFlagImg.alt;
-  }});
+    }
+  });
 });
