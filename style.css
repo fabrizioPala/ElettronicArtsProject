@@ -1,90 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar {
-  position: fixed;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  z-index: 1;
-  transition: top 0.3s;
-}
 
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-#navbar1 {
-  top: 0;
-}
-
-#navbar2 {
-  top: 50px;
-}
-
-.content {
-  margin-top: 100px;
-  padding: 20px;
-}
-
-/* ----------------------------------- */
-.nav1 {
-  height: 40px;
-  background-color: black;
-  color: white;
-}
-.nav2 {
-  height: 56px;
-  background-color: white;
-}
-.heroSection {
-  height: 541px;
-  background-image: url(https://media.contentapi.ea.com/content/dam/ea/tales-of-kenzera/zau/images/2023/12/talesofkenzera-hero-md-franchisehub-tophero-7x2-xl-newest.jpg.adapt.crop5x2.1455w.jpg); /* Sostituisci 'percorso/dell/immagine.jpg' con il percorso effettivo del tuo file immagine */
-  background-size: cover; /* Imposta la modalità di copertura per l'immagine di sfondo */
-  background-repeat: no-repeat;
-}
-.yearGaming {
-  height: 97px;
-  background-color: 97px;
-}
-.games {
-  height: 1039px;
-  background-color: rosybrown;
-}
-.ultimeNovità {
-  height: 93px;
-  background-color: aquamarine;
-}
-.nav3 {
-  height: 63px;
-  background-color: chartreuse;
-}
-.notizie {
-  height: 1071px;
-}
-.EAplay {
-  height: 549px;
-  background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop5x2.1455w.png); /* Sostituisci 'percorso/dell/immagine.jpg' con il percorso effettivo del tuo file immagine */
-  background-size: cover; /* Imposta la modalità di copertura per l'immagine di sfondo */
-  background-repeat: no-repeat;
-}
-.Giocatori {
-  height: 97px;
-  background-color: rgb(0, 152, 237, 1);
-}
-
-/* --------------------- Salvatore ------------------ */
+/* <!-- ------------------------------------ salvatore ------------------------------- -->
+<!-- ------------------------------------ salvatore ------------------------------- -->
+<!-- ------------------------------------ salvatore ------------------------------- --> */
 
 .hidden {
   display: none;
@@ -886,7 +809,6 @@ footer {
   .language-items-column {
     display: block;
     flex-direction: column;
-    margin-right: 28px;
   }
 
   .language-item {
@@ -917,9 +839,6 @@ footer {
     display: none;
   }
 
-  #spaced {
-    margin-left: 28px;
-  }
 }
 
 /* --------------------------------------------LANGUAGE--------------------------------------------------- */
@@ -1040,3 +959,8 @@ img.flag-selection {
     margin-top: 35px;
   }
 }
+
+/* <!-- ------------------------------------ salvatore ------------------------------- -->
+<!-- ------------------------------------ salvatore ------------------------------- -->
+<!-- ------------------------------------ salvatore ------------------------------- --> */
+
