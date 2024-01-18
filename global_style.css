@@ -1,5 +1,4 @@
-html{
-    html {
+  html {
         --ea-dark: #161616;
         --ea-light: #f3f3f3;
         --ea-orange: #f56c2c;
@@ -14,4 +13,3 @@ html{
         --ea-theme-ea-corporate-body-font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
         --ea-theme-header-font-family: "ElectronicArtsDisplay", "Verdana", "Helvetica", "Arial", sans-serif;
     }
-}

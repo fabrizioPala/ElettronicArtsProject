@@ -1,57 +1,204 @@
-.nav1{
-    height: 40px;
+@import url(global_style.css);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+
+  }
+
+  
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav1 {
     background-color: black;
     color: white;
-}
-.nav2{
-    height:56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav1 img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px; 
+  }
+  
+  .nav2 {
     background-color: white;
-}
-.heroSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 58px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;
+  }
+  
+  .nav2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav1.hidden {
+    transform: translateY(-100%);
+  }
+  .content{
+    padding-top:96px;
+    position:relative;
+    bottom: 10px;
+ }
+  .heroContainer{
+    position:absolute;
+    width: 45%
+    
+  }
+  
+  .heroSection {
     height: 541px;
-    background-image: url(https://media.contentapi.ea.com/content/dam/ea/tales-of-kenzera/zau/images/2023/12/talesofkenzera-hero-md-franchisehub-tophero-7x2-xl-newest.jpg.adapt.crop5x2.1455w.jpg); /* Sostituisci 'percorso/dell/immagine.jpg' con il percorso effettivo del tuo file immagine */
-    background-size: cover; /* Imposta la modalità di copertura per l'immagine di sfondo */
+    background-image: url(https://media.contentapi.ea.com/content/dam/ea/tales-of-kenzera/zau/images/2023/12/talesofkenzera-hero-md-franchisehub-tophero-7x2-xl-newest.jpg.adapt.crop5x2.1455w.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
-}
-.yearGaming{
-    height:97px;
-    background-color:97px;
-}
-.games{
+    position: relative;
+  }
+  .heroImg{
+    height: 147px;
+    width: 420px;
+    position:absolute;
+    top:135px;
+    left:108px;
+    
+  }
+  .heroContent{
+    position: absolute;
+    top: 280px;
+    left:108px ;
+    
+  }
+ 
+  .transparentBtn{
+    width: 153px;
+    height: 51px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    border-radius: 4px;
+    margin-right:26px;
+    position:relative;
+    bottom:50px;
+    font-size: 17px;
+
+  }
+  .heroParagraph{
+    position:relative;
+    bottom: 28px;
+    color:white;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: lighter;
+    
+  }
+  .whiteBtn{
+    width: 153px;
+    height: 51px;
+    border: 2px solid white;
+    border-radius: 4px;
+    position:relative;
+    bottom:50px;
+    font-size: 17px;
+  }
+  
+  .yearGaming {
+    height: 97px;
+    background-color: rosybrown;
+  }
+  
+  .games {
     height: 1039px;
     background-color: rosybrown;
-
-}
-.ultimeNovità{
-    height:93px;
+  }
+  
+  .ultimeNovità {
+    height: 93px;
     background-color: aquamarine;
-}
-.nav3{
-    height:63px;
+  }
+  
+  .nav3 {
+    height: 63px;
     background-color: chartreuse;
-}
-.notizie{
+  }
+  
+  .notizie {
     height: 1071px;
-}
-.EAplay{
-    height:549px;
-    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop5x2.1455w.png); /* Sostituisci 'percorso/dell/immagine.jpg' con il percorso effettivo del tuo file immagine */
-    background-size: cover; /* Imposta la modalità di copertura per l'immagine di sfondo */
+  }
+  
+  .EAplay {
+    position:relative;
+    height: 530px;
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-grid-evergreen-hero-md-7x2-xl.jpg.adapt.crop5x2.1455w.jpg);
+    background-size:contain;
     background-repeat: no-repeat;
-}
-.Giocatori{
-    height:97px;
-    background-color: rgb(0, 152, 237,1);
-}
-.condizioni{
+  }
+ 
+  .EaPlayContent{
+   position:absolute;
+   top: 136px;
+   left:100px;
+   width: 39%;
+   
+ 
+  }
+  .EaPlayPar{
+    position:absolute;
+    color:white;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight:200;
+    top: 60px;
+  }
+  .EaPlayButton{
+    width: 153px;
+    height: 51px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    border-radius: 4px;
+    margin-right:26px;
+    position:relative;
+    top:120px;
+    left:-250px;
+    font-size: 17px;
+
+  }
+  
+  .Giocatori {
+    height: 97px;
+    background-color: rgb(0, 152, 237, 1);
+  }
+  
+  .condizioni {
     height: 84px;
     background-color: wheat;
-}
-.footer1{
-    height:151px;
-    background-color:grey;
-}
-.footer2{
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer1 {
+    height: 151px;
+    background-color: grey;
+  }
+  
+  .footer2 {
     height: 266px;
     background-color: aqua;
-}
+  }
+  
