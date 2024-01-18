@@ -45,7 +45,21 @@ document.addEventListener("click", () => {
 
 const priceItems = document.querySelectorAll(".price-item");
 
+
 priceItems.forEach(priceItem => {
+
+
+  priceItem.addEventListener('mouseover', function() {
+    document.querySelectorAll('.price-item').forEach(item => {
+      item.classList.remove('bluSpan');
+    });
+
+    this.classList.add('bluSpan');
+  });
+
+
+// ----------------------------------
+
   priceItem.addEventListener('click', function() {
     const priceText = this.querySelector('span').textContent;
 
