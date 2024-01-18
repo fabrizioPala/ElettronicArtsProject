@@ -1,65 +1,844 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <nav class="nav1">
-      <img src="icon1.png" alt="Icon 1">
-      <img src="icon2.png" alt="Icon 2">
-      <img src="icon3.png" alt="Icon 3">
-    </nav>
-    <nav class="nav2">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-family: "Electronic Arts Display"; -->
+    <link
+      href="https://db.onlinewebfonts.com/c/e770a9e3ae1a8be2089472bc6391f697?family=Electronic+Arts+Display"
+      rel="stylesheet"
+    />
 
-    </nav>
-  </header>
+    <!--   font-family: "Electronic Arts Text"; -->
+    <link
+      href="https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar" id="navbar1">
+        <!-- Prima Navbar -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </div>
 
-  <div class="content">
-  <div class="heroSection">
-    <div class="heroContainer">
-    <img class="heroImg" src="heropng.png" alt="TalesOfZ">
-    <div class="heroContent">
-    <h5 class="heroParagraph">Scatena la danza dello sciamano. Libera lo spirito di tuo padre. L'avventura inizia il 23 aprile 2024.</h5>
+      <div class="navbar" id="navbar2">
+        <!-- Seconda Navbar -->
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="heroSection"></div>
+    <!--
+    <div class="yearGaming"></div>
+
+    <div class="games">
+      Giochi in Evidenza: contiene 6 cards e un bottone "ultimi giochi"
+    </div>
+    <div class="ultimeNovità">Ultime novità</div>
+    <nav class="nav3">Nav3</nav>
+    <div class="notizie">notizie,contiene anche il bottone "più dettagli"</div>
+    <div class="EAplay">
+      Ea Play <img class="logo" src="logoEA.svg" alt="logoEA" />
+    </div> 
+     -->
+    <div class="Giocatori">giocatori e genitori</div>
     
-    
-      <button class="transparentBtn">Scopri di più</button>
-      <button class="whiteBtn">Preordina ora</button>
-  
-  </div>
-  </div>
-  </div>
-  <div class="yearGaming"></div>
-  <div class="games">Giochi in Evidenza: contiene 6 cards e un bottone "ultimi giochi"</div>
-  <div class="ultimeNovità">Ultime novità</div>
-  <nav class="nav3">Nav3</nav>
-  <div class="notizie">notizie, contiene anche il bottone "più dettagli"</div>
-  <div class="EAplay">
-    <div class="EaPlayContent">
-      <img class="logoEaPlayOrange" src="logoEA.svg" alt="logoEA">
-    <h6 class="EaPlayPar">Non limitarti al gioco. Gioca al massimo. Sblocca ricompense esclusive, contenuti per i soli membri e una libreria dei migliori titoli.</h6>
-      <button class="EaPlayButton">Iscriviti subito</button>
-      
-  </div>
+    <!-- ------------------------------------ salvatore ------------------------------- -->
+    <div class="ea-condition">
+      <p>
+        *SI APPLICANO CONDIZIONI, LIMITAZIONI ED ESCLUSIONI. CONSULTARE I
+        <span><a href="#">TERMINI DI EA PLAY </a></span> PER I DETTAGLI.
+      </p>
+    </div>
+    <footer>
+      <div class="local-footer">
+        <div class="local-footer-container">
+          <div class="local-footer-links">
+            <a href="#">Lavora con noi </a>
+            <a href="#">Dirigenza</a>
+            <a href="#">Rapporto sull'impatto</a>
+            <a href="#">I nostri impegni</a>
+            <a href="#">Segnala un problema</a>
+          </div>
 
-</div>
-  
+          <div class="local-footer-social">
+            <h3 class="social-links-title">Partecipa alla conversazione</h3>
+            <div class="social-links">
+              <a class="social-icons" href="#"
+                ><img src="./social-icons/icons8-f-di-facebook.svg" alt=""
+              /></a>
+              <a class="social-icons" href="#"
+                ><img src="./social-icons/icons8-twitterx.svg" alt=""
+              /></a>
+              <a class="social-icons" href="#"
+                ><img src="./social-icons/icons8-riproduci-youtube.svg" alt=""
+              /></a>
+              <a class="social-icons" href="#"
+                ><img src="./social-icons/icons8-instagram.svg" alt=""
+              /></a>
+              <a class="social-icons" href="#"
+                ><img src="./social-icons/icons8-twitch.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <div class="Giocatori">giocatori e genitori</div>
-  <div class="condizioni">condizioni</div>
-</div>
-  <footer>
-    <div class="footer1">footer1</div>
-    <div class="footer2">footer2</div>
-  </footer>
+      <ea-network-footer class="network">
+        <div class="network_logo">
+          <a href="https://www.ea.com/it-it" title="EA"
+            ><img
+              src="https://media.contentapi.ea.com/content/dam/eacom/common/medallion-violet.png"
+              alt="EA"
+          /></a>
+        </div>
+        <div class="ea-network">
+          <div class="ea-network-content">
+            <div class="network-links">
+              <a href="#"> Libreria dei giochi</a>
+              <a href="#">Registrati</a>
+              <a href="#">Riscatta codice</a>
+              <a href="#">EA app</a>
+              <a href="#">Informazioni</a>
+              <a href="#">Accessibilità</a>
+              <a href="#">Aiuto</a>
+            </div>
+            <div class="network-selection">
+              <button class="network-btn price">
+                <div class="btn-link" id="region">Prezzi per regione</div>
+                <div class="price-selector">
+                  <span class="price-selection">Italy</span>
+                  <img src="./drop-down icon/drop-down.png" alt="" />
+                </div>
 
-  <script src="script.js"></script>
-</body>
+                <div class="price-items">
+                  <div class="price-items-column">
+                    <div class="price-item">
+                      <span>Austria</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Belgium</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Bulgaria</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Croatia</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Cyprus</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Czech Republic</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Denmark</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Estonia</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Finland</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="price-items-column">
+                    <div class="price-item">
+                      <span>France</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Germany</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Greece</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Hungary</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Iceland</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Ireland</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item bluSpan">
+                      <span>Italy</span>
+                      <img
+                        class="checked-img"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Latvia</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Liechtenstein</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="price-items-column">
+                    <div class="price-item">
+                      <span>Lithuania</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Luxenbourg</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Malta</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Netherlands</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Norway</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Poland</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Portugal</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Romania</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Slovakia</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="price-items-column">
+                    <div class="price-item">
+                      <span>Slovenia</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Spain</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Sweden</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="price-item">
+                      <span>Switzerland</span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </button>
+
+              <button class="network-btn language">
+                <div class="btn-link">Lingua</div>
+                <div class="language-selector">
+                  <div>
+                    <img
+                      class="flag-selection"
+                      src="./flags/icons8-italia-40.png"
+                      alt=""
+                    />
+                  </div>
+                  <span class="country-selection">Italia</span>
+                  <img
+                    id="language-drop"
+                    src="./drop-down icon/drop-down.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="language-items">
+                  <div class="language-items-column">
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-stati-uniti-d'america-40.png"
+                          alt="USA"
+                        />
+                        United States
+                      </span>
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-gran-bretagna-40.png"
+                          alt="UK"
+                        />
+                        United Kingdom
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-australia-40.png"
+                          alt="Australia"
+                        />
+                        Australia
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-francia-40.png"
+                          alt="France"
+                        />
+                        France
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-germania-40.png"
+                          alt=""
+                        />
+                        Deutschland
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-italia-40.png"
+                          alt=""
+                        />
+                        Italia
+                      </span>
+
+                      <img
+                        class="checked-img"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-giappone-40.png"
+                          alt=""
+                        />
+                        日本
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-polonia-40.png"
+                          alt=""
+                        />
+                        Polska
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-brasile-40.png"
+                          alt=""
+                        />
+                        Brasil
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="language-items-column">
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-federazione-russa-40.png"
+                          alt=""
+                        />
+                        Poccия
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-spagna-2-40.png"
+                          alt=""
+                        />
+                        España
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-repubblica-ceca-40.png"
+                          alt=""
+                        />
+                        Česká republika
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-canada-40.png"
+                          alt=""
+                        />
+                        Canada (En)
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-canada-40.png"
+                          alt=""
+                        />
+                        Canada (Fr)
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-danimarca-40.png"
+                          alt=""
+                        />
+                        Danmark
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-finlandia-40.png"
+                          alt=""
+                        />
+                        Suomi
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-messico-40 (1).png"
+                          alt=""
+                        />
+                        Mexico
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-paesi-bassi-40.png"
+                          alt=""
+                        />
+                        Nederland
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="language-items-column">
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-norvegia-40.png"
+                          alt=""
+                        />
+                        Norge
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-svezia-40.png"
+                          alt=""
+                        />
+                        Sverige
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/sample.png"
+                          alt=""
+                        />
+                        中国
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-corea-del-sud-40.png"
+                          alt=""
+                        />
+                        대한민국
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/sample.png"
+                          alt=""
+                        />
+                        繁體中文
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+
+                    <div class="language-item">
+                      <span class="country-language">
+                        <img
+                          class="language-item-flag"
+                          src="./flags/icons8-turchia-40.png"
+                          alt=""
+                        />
+                        Türkiye
+                      </span>
+
+                      <img
+                        class="checked-img hidden"
+                        src="./checked/icons8-segno-di-spunta.svg"
+                        alt="checked"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <ea-network-legal class="ea-network-legal">
+            <div class="legal-notes">
+              <a href="">Note legali e privacy</a>
+              <a href="">Accordo con l’utente</a>
+              <a href=""
+                >Politica sulla privacy e sui cookie (i tuoi diritti sulla
+                privacy)</a
+              >
+              <a href="">Aggiornamenti sui servizi online</a>
+              <a href="">Cookie Preferenze</a>
+
+              <div class="copyright">© 2024 Electronic Arts Inc.</div>
+            </div>
+
+            <div class="truste">
+              <a href="#">
+                <img
+                  style="border: none"
+                  src="//privacy-policy.truste.com/privacy-seal/seal?rid=f1a11c5d-0232-4077-8498-2e69a38c1335"
+                  alt="TRUSTe"
+                />
+              </a>
+            </div>
+          </ea-network-legal>
+        </div>
+      </ea-network-footer>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+
 </html>
