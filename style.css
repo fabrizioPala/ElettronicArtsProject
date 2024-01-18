@@ -55,3 +55,72 @@
     height: 266px;
     background-color: aqua;
 }
+
+.ultimeNovità {
+    background-color: #ffffff;
+    font-size: 35px;
+    padding: bottom 20px; ;
+    display: flex;
+    justify-content: center;
+}
+
+.nav3 {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav3 a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav3 a:hover {
+    background-color: #ddd;
+    color: rgb(255, 255, 255);
+  }   
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+ display : grid ;
+ grid-template-columns: 1fr 1fr 1fr ;
+ margin : 0 50px ;
+ gap: 10px;
+ padding: 200px;
+
+ 
+}
+
+.card {
+    height: 25em;
+    width: 15em;
+    border: 0.7px solid black;
+}
+
+.image {
+    line-height: normal;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.title {
+    color: red;
+}
+
+.button{
+    border: 0.5px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+   align-items: center;
+}
