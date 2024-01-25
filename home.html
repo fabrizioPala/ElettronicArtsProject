@@ -19,139 +19,1246 @@
     </div>
 
     <!-- matteo -->
-    <div class="ultimeNovità">
-      <h3><b>Ultime novità</b></h3>
-    </div>
-    <div class="nav3">
-      <a href="#" class="navbar-link">Notizie EA</a>
-      <a href="#" class="navbar-link">EA SPORTS FC</a>
-      <a href="#" class="navbar-link">Apex Legends</a>
-      <a href="#" class="navbar-link">Ultime novità</a>
-      <a href="#" class="navbar-link">The Sims 4</a>
-      <a href="#" class="navbar-link">Star Wars</a>
-      <a href="#" class="navbar-link">F1</a>
-      <a href="#" class="navbar-link">Battlefield</a>
-      <a href="#" class="navbar-link">Need For Speed</a>
-    </div>
-    <div class="section-container">
-      <div class="container">
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-news-frostbite-rebrand-article-thumbnail-16x9.png.adapt.crop16x9.431p.png"
-            alt=""
-            class="image"
+    <section id="ultimeNovità-container">
+      <div id="ultimeNovità-title">
+        <h3>Ultime novità</h3>
+      </div>
+
+      <button class="ultimeNovità-menuButtons" id="prev">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.5 19.5L8.5 12.5L15.5 5.5"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
           />
-          <div class="span">
-            <span class="title">Frostbite</span>
-            <span class="date">18-dic-2023</span>
-          </div>
-          <h3 class="card-title">
-            Annunciato un nuovo look e un nuovo futuro per il motore Frostbite
-            di EA
-          </h3>
-          <p class="card-p">
-            Il rebranding del Frostbite da parte di Electronic Arts nel 2024
-            segna un'era nuova e più collaborativa per il suo motore di gioco
-            all'avanguardia.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/eacom/maxis/common/image2.jpg.adapt.crop16x9.431p.jpg"
-            alt=""
-            class="image"
+        </svg>
+      </button>
+      <button class="ultimeNovità-menuButtons" id="next">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.5 4.5L15.5 11.5L8.5 18.5"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
           />
-          <div class="span">
-            <span class="title">Maxis</span>
-            <span class="date">14-dic-2023</span>
+        </svg>
+      </button>
+
+      <div id="ultimeNovità-cardMenu">
+        <div
+          class="triggerContainer triggered_bg"
+          data-id="content-1"
+          data-nth="1°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-1" data-nth="1°">
+            Notizie EA
           </div>
-          <h3 class="card-title">
-            Dietro The Sims 4 in Affitto Expansion Pack
-          </h3>
-          <p class="card-p">
-            I progettisti di Maxis svelano come i nuovi immobili in locazione
-            adattano la narrazione tipica di The Sims alla vita multifamiliare.
-          </p>
+          <div
+            class="triggerButtons__RedBar visible__bar"
+            id="1°"
+            data-id="content-1"
+          ></div>
         </div>
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/news/www-ea/common/year-in-gaming/year-in-review-thumbnail-image-final.png.adapt.crop16x9.431p.png"
-            alt=""
-            class="image"
-          />
-          <div class="span">
-            <span class="title">Electronic Arts Inc.</span>
-            <span class="date">13-dic-2023</span>
+
+        <div
+          class="triggerContainer"
+          data-id="content-2"
+          data-nth="2°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-2" data-nth="2°">
+            EA SPORTS FC
           </div>
-          <h3 class="card-title">
-            Festeggiamo un anno importante per EA SPORTS
-          </h3>
-          <p class="card-p">
-            È stato un anno importante per EA SPORTS e vogliamo riflettere su
-            alcuni dei nostri più grandi successi e sforzi riguardo ai nostri
-            giochi, alle nostre community e ai nostri team mentre ci avviamo
-            verso il nuovo anno.
-          </p>
+          <div class="triggerButtons__RedBar" id="2°" data-id="content-2"></div>
         </div>
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/eacom/images/2022/07/eacom-brand-featured-image-16x9.png.adapt.crop16x9.431p.png"
-            alt=""
-            class="image"
-          />
-          <div class="span">
-            <span class="title">Electronic Arts Inc.</span>
-            <span class="date">13-dic-2023</span>
+
+        <div
+          class="triggerContainer"
+          data-id="content-3"
+          data-nth="3°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-3" data-nth="3°">
+            Apex Legends
           </div>
-          <h3 class="card-title">
-            Electronic Arts è stata nominata in diverse classifiche dei
-            "Migliori ambie…
-          </h3>
-          <p class="card-p">
-            Electronic Arts è stata premiata per la qualità del suo ambiente di
-            lavoro.
-          </p>
+          <div class="triggerButtons__RedBar" id="3°" data-id="content-3"></div>
         </div>
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/eacom/images/2022/07/eacom-brand-featured-image-16x9.png.adapt.crop16x9.431p.png"
-            alt=""
-            class="image"
-          />
-          <div class="span">
-            <span class="title">Electronic Arts Inc.</span>
-            <span class="date">1-dic-2023</span>
+
+        <div
+          class="triggerContainer"
+          data-id="content-4"
+          data-nth="4°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-4" data-nth="4°">
+            The Sims 4
           </div>
-          <h3 class="card-title">
-            Electronic Arts continua a promuovere il gioco inclusivo
-          </h3>
-          <p class="card-p">
-            EA rende open source il suo strumento IRIS per la fotosensibilità e
-            aggiunge quattro brevetti aggiuntivi al suo impegno in materia di
-            brevetti per l'accessibilità.
-          </p>
+          <div class="triggerButtons__RedBar" id="4°" data-id="content-4"></div>
         </div>
-        <div class="card">
-          <img
-            src="https://media.contentapi.ea.com/content/dam/eacom/common/terrance-and-shelley-thumbnail1.png.adapt.crop16x9.431p.png"
-            alt=""
-            class="image"
-          />
-          <div class="span">
-            <span class="title">Electronic Arts Inc.</span>
-            <span class="date">22-nov-2023</span>
+
+        <div
+          class="triggerContainer"
+          data-id="content-5"
+          data-nth="5°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-5" data-nth="5°">Star Wars</div>
+          <div class="triggerButtons__RedBar" id="5°" data-id="content-5"></div>
+        </div>
+
+        <div
+          class="triggerContainer"
+          data-id="content-6"
+          data-nth="6°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-6" data-nth="6°">F1</div>
+          <div class="triggerButtons__RedBar" id="6°" data-id="content-6"></div>
+        </div>
+
+        <div
+          class="triggerContainer"
+          data-id="content-7"
+          data-nth="7°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-7" data-nth="7°">
+            Battlefield
           </div>
-          <h3 class="card-title">
-            Creazione dell'esperienza visiva di EA SPORTS Madden NFL 24
-          </h3>
-          <p class="card-p">
-            Preparati a conoscere Terrance e Shelley, due membri del team
-            Tiburon VisX che si impegnano a offrire ai nostri giocatori di EA
-            SPORTS Madden NFL 24 l'esperienza visiva più autentica e
-            coinvolgente di sempre.
-          </p>
+          <div class="triggerButtons__RedBar" id="7°" data-id="content-7"></div>
         </div>
-        <button class="button">Più dettagli</button>
+
+        <div
+          class="triggerContainer"
+          data-id="content-8"
+          data-nth="8°"
+          tabindex="0"
+        >
+          <div class="trigger" data-id="content-8" data-nth="8°">
+            Need For Speed
+          </div>
+          <div class="triggerButtons__RedBar" id="8°" data-id="content-8"></div>
+        </div>
+      </div>
+      <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+      <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+      <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+      <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+      <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+
+      <section id="ultimeNovità-cardContainer">
+        <div class="content visible" id="content-1">
+          <div class="cardUltimeNovità">
+            <div id="unImage"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Electronic Arts Inc.</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>18-gen-2024</p>
+                </div>
+              </div>
+              <h3>Sbloccare opportunità: uno sguardo sulla vita a EA</h3>
+              <div>
+                <p class="par">
+                  Kirk Chavarie, reclutatore di Electronic Arts, condivide la
+                  sua conoscenza sulla cultura, i valori e le opportunità di
+                  crescita lavorativa dell'azienda
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage2"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Frostbite</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>18-gen-2023</p>
+                </div>
+              </div>
+              <h3>
+                Annunciato un nuovo look e un nuovo futuro per il motore
+                Frostbite di EA
+              </h3>
+              <div>
+                <p class="par">
+                  Il rebranding del Frostbite da parte di Electronic Arts nel
+                  2024 segna un'era nuova e più collaborativa per il suo motore
+                  di gioco all'avanguardia.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage3"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Maxis</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>14-dic-2023</p>
+                </div>
+              </div>
+              <h3>Dietro The Sims 4 In Affitto Expansion Pack</h3>
+              <div>
+                <p class="par">
+                  I progettisti di Maxis svelano come i nuovi immobili in
+                  locazione adattano la narrazione tipica di The Sims alla vita
+                  multifamiliare.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage4"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Electronic Arts inc.</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>13-dic-2023</p>
+                </div>
+              </div>
+              <h3>Festeggiamo un anno importante per EA SPORTS</h3>
+              <div>
+                <p class="par">
+                  È stato un anno importante per EA SPORTS e vogliamo riflettere
+                  su alcuni dei nostri più grandi successi e sforzi riguardo ai
+                  nostri giochi, alle nostre community e ai nostri team mentre
+                  ci avviamo verso il nuovo anno.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage5"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Electronic Arts Inc.</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>13-dic-2023</p>
+                </div>
+              </div>
+              <h3>
+                Electronic Arts è stata nominata in diverse classifiche dei
+                "Migliori ambie…
+              </h3>
+              <div>
+                <p class="par">
+                  Electronic Arts è stata premiata per la qualità del suo
+                  ambiente di lavoro.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage6"></div>
+            <section class="cards_texts_container">
+              <div class="title-subtitle-container">
+                <div class="card-title">
+                  <p>Electronic Arts Inc.</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>1-dic-2023</p>
+                </div>
+              </div>
+              <h3>Electronic Arts continua a promuovere il gioco inclusivo</h3>
+              <div>
+                <p class="par">
+                  EA rende open source il suo strumento IRIS per la
+                  fotosensibilità e aggiunge quattro brevetti aggiuntivi al suo
+                  impegno in materia di brevetti per l'accessibilità.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+        <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+        <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+        <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+        <!--NOTIZIE EA ---- NOTIZIE EA ---- NOTIZIE EA ----- NOTIZIE EA -->
+
+        <!-- EA-PLAY----EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY -->
+        <!-- EA-PLAY----EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY -->
+        <!-- EA-PLAY----EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY -->
+        <!-- EA-PLAY----EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY -->
+        <!-- EA-PLAY----EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY---EA-PLAY -->
+
+        <div class="content" id="content-2">
+          <div class="cardUltimeNovità">
+            <div id="unImage7"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>5-dic-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>
+                EA SPORTS FC™ 24 | Note del team di sviluppo - Aggiornamento
+                delle feste
+              </h3>
+              <div>
+                <p class="par">
+                  L'aggiornamento delle feste (aggiornamento n°6) è vicino e non
+                  vediamo l'ora di parlarvi delle fantastiche modifiche e
+                  aggiunte a EA SPORTS FC™ 24.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage8"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>23-nov-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>EA SPORTS FC™ 24 - UEFA EURO 2024</h3>
+              <div>
+                <p class="par">
+                  EA SPORTS FC 24 dà il benvenuto nel Club a UEFA EURO 2024™:
+                  gioca subito e ottieni un giocatore UEFA EURO 2024 in Ultimate
+                  Team™.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage9"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>3-nov-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>Ultimate Team™ 24 - Scelte degli esperti</h3>
+              <div>
+                <p class="par">
+                  Presentiamo le Scelte degli esperti in Ultimate Team™ 24
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage10"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>26-ott-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>
+                EA SPORTS FC 24 - Offerta adidas FC Founder - Sito ufficiale EA
+                SPORTS
+              </h3>
+              <div>
+                <p class="par">
+                  EA SPORTS FC 24 e adidas hanno unito le forze per offrire ai
+                  nostri FC Founder uno sconto del 25% sui prodotti idonei
+                  all'indirizzo www.adidas.com/ea_sports
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage11"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>26-ott-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>24 giorni di EA SPORTS FC™ 24 - Sito ufficiale EA SPORTS</h3>
+              <div>
+                <p class="par">
+                  Benvenuti nel Club: date un'occhiata agli ultimi traguardi
+                  raggiunti dalla community nei primi 24 giorni di FC 24
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage12"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>22-set-2023</p>
+                </div>
+                <div class="cardsub-title">
+                  <p></p>
+                </div>
+              </div>
+              <h3>EA SPORTS FC™ 24 - Probabilità pacchetti</h3>
+              <div>
+                <p class="par">
+                  Scopri le probabilità per i pacchetti in EA SPORTS FC™ 24 che
+                  elencheranno nel dettaglio ciò che è possibile trovare
+                  all'interno dei pacchetti acquistati.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- FIFA---FIFA---- FIFA---- FIFA---- FIFA----- FIFA -->
+        <!-- FIFA---FIFA---- FIFA---- FIFA---- FIFA----- FIFA -->
+        <!-- FIFA---FIFA---- FIFA---- FIFA---- FIFA----- FIFA -->
+        <!-- FIFA---FIFA---- FIFA---- FIFA---- FIFA----- FIFA -->
+        <!-- FIFA---FIFA---- FIFA---- FIFA---- FIFA----- FIFA -->
+
+        <div class="content" id="content-3">
+          <div class="cardUltimeNovità">
+            <div id="unImage13"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>14-mar-2023</p>
+                </div>
+              </div>
+              <h3>FIFA 23 | Note degli sviluppatori - Aggiornamento #9</h3>
+              <div>
+                <p class="par">
+                  L'aggiornamento #9 di FIFA 23 sarà presto disponibile su
+                  PlayStation®5, Xbox Series X|S, PlayStation®4, Xbox One e PC.
+                  Include miglioramenti a vari aspetti del gameplay, tra cui
+                  movimento dei giocatori, intercettazioni mentre…
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage14"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>6-mar-2023</p>
+                </div>
+              </div>
+              <h3>
+                FIFA 23 - Note degli sviluppatori - Un'occhiata da vicino a UWCL
+                e NWSL - E…
+              </h3>
+              <div>
+                <p class="par">
+                  Siamo lieti di annunciare l'aggiunta della UEFA Women's
+                  Champions League (UWCL) e della National Women's Soccer League
+                  (NWSL)
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage15"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>23-feb-2023</p>
+                </div>
+              </div>
+              <h3>
+                Le mascotte dei club tornano in Ultimate Team - Sito ufficiale
+                EA SPORTS
+              </h3>
+              <div>
+                <p class="par">Le mascotte dei club tornano in Ultimate Team</p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage16"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>8-nov-2022</p>
+                </div>
+              </div>
+              <h3>Pronostico EA SPORTS FIFA World Cup 2022™</h3>
+              <div>
+                <p class="par">
+                  EA SPORTS™ pronostica che sarà l'Argentina a vincere la FIFA
+                  World Cup 2022™. Scopri come si è svolto il torneo nella
+                  simulazione di FIFA 23.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage17"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>1-nov-2022</p>
+                </div>
+              </div>
+              <h3>FIFA 23 | Note degli sviluppatori - FIFA World Cup™</h3>
+              <div>
+                <p class="par">
+                  Abbiamo numerosi dettagli da condividere sulla FIFA World Cup
+                  2022™, disponibile a breve in FIFA 23.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage18"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>FIFA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>28-ott-2022</p>
+                </div>
+              </div>
+              <h3>Show Racism the Red Card</h3>
+              <div>
+                <p class="par">
+                  28 ottobre 2022 - EA SPORTS™ e Show Racism the Red Card
+                  (SRtRC) hanno annunciato che l'opera d'arte vincitrice del
+                  concorso scolastico "IT'S IN THE GAME" di quest'anno sarà da
+                  oggi parte di FIFA 23.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- CONTENUTO 4 -->
+
+        <div class="content" id="content-4">
+          <div class="cardUltimeNovità">
+            <div id="unImage19"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>F1® 22</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>22-feb-2023</p>
+                </div>
+              </div>
+              <h3>F1® 22 - Note sulla patch 1.18</h3>
+              <div>
+                <p class="par">
+                  La patch 1.18 comprende la vettura C43 dell'Alfa Romeo F1 Team
+                  del 2023, utilizzabile in modalità Prova a tempo
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage20"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>F1® 22</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>22-feb-2023</p>
+                </div>
+              </div>
+              <h3>Livrea Alfa Romeo C43 2023 aggiunta a F1® 22</h3>
+              <div>
+                <p class="par">
+                  Inizia la nuova stagione di F1® con Alfa Romeo e F1® 22
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage21"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Electronic Arts Inc.</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>3-feb-2023</p>
+                </div>
+              </div>
+              <h3>Max Verstappen firma con EA SPORTS™</h3>
+              <div>
+                <p class="par">
+                  Il pluricampione del mondo in carica di Formula 1® sarà
+                  presente nei titoli EA SPORTS™.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage22"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>F1® 22</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>16-gen-2023</p>
+                </div>
+              </div>
+              <h3>F1® 22 - Note sulla patch 1.17</h3>
+              <div>
+                <p class="par">
+                  Festeggia il Capodanno lunare con degli oggetti davvero
+                  potenti
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage23"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>F1® 22</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>16-gen-2023</p>
+                </div>
+              </div>
+              <h3>F1® 22 - Note sulla patch 1.17</h3>
+              <div>
+                <p class="par">
+                  La patch 1.17 include il supporto a AMD FidelityFX Super
+                  Resolution 2.2
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage24"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>F1® 22</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>7-dic-2022</p>
+                </div>
+              </div>
+              <h3>La serie 4 del Pass Podio accoglie Audi in F1®</h3>
+              <div>
+                <p class="par">
+                  Inoltre, per tutta la durata delle vacanze, si svolgerà un
+                  evento speciale a tempo limitato
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- CONTENUTO 5 -->
+
+        <div class="content" id="content-5">
+          <div class="cardUltimeNovità">
+            <div id="unImage25"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>23-mar-2023</p>
+                </div>
+              </div>
+              <h3>
+                Dai fuoco alle polveri nell'evento collezione Squadra del sole
+              </h3>
+              <div>
+                <p class="par">
+                  Dai prova del tuo valore nella nuova modalità a tempo limitato
+                  Mira letale, una nuova mappa per Deathmatch a squadre, e altro
+                  ancora!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage26"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>2-mar-2023</p>
+                </div>
+              </div>
+              <h3>
+                Indossa l'armatura dei guardiani nell'evento collezione Guardia
+                imperiale
+              </h3>
+              <div>
+                <p class="par">
+                  Sfida il caldo rovente nella nuova modalità Battaglia di fuoco
+                  e sblocca "Anello forte", il nuovo Set cimelio di Ash!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage27"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>13-feb-2023</p>
+                </div>
+              </div>
+              <h3>
+                Celebra quattro anni di Apex Legends con l'evento collezione
+                Anniversario
+              </h3>
+              <div>
+                <p class="par">
+                  Proteggi la tua squadra nelle modalità a rotazione di Mixtape
+                  e sblocca "Alba di Hope", il nuovo Set cimelio di Wraith!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage28"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>10-feb-2023</p>
+                </div>
+              </div>
+              <h3>Baraonda - Note sulla patch</h3>
+              <div>
+                <p class="par">
+                  Celebra il nostro 4º anniversario, ottieni oggetti cosmetici
+                  con un nuovo contatore premi creato dalla community e altro
+                  ancora!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage29"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>8-feb-2023</p>
+                </div>
+              </div>
+              <h3>Nuovi aggiornamenti in arrivo con Apex Legends - Baraonda</h3>
+              <div>
+                <p class="par">
+                  Preparati a scoprire le nuove classi delle leggende,
+                  Deathmatch a squadre, una nuova arma e molto altro ancora il
+                  14 febbraio.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage30"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Apex Legends</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>6-feb-2023</p>
+                </div>
+              </div>
+              <h3>Scopri di più su Apex Legends™ - Baraonda</h3>
+              <div>
+                <p class="par">
+                  Classi rielaborate per le leggende, la modalità Team
+                  Deathmatch e molto altro ancora. Scopri tutte le novità della
+                  Stagione 16!
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- CONTENUTO NUMERO 6 -->
+
+        <div class="content" id="content-6">
+          <div class="cardUltimeNovità">
+            <div id="unImage31"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>18-apr-2023</p>
+                </div>
+              </div>
+              <h3>Riscoprite le vostre radici con The Sims 4</h3>
+              <div>
+                <p class="par">
+                  Lattanti sibilanti che si allungano... Pazzesco!!!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage32"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>11-apr-2023</p>
+                </div>
+              </div>
+              <h3>Cose da fare - 11 aprile 2023</h3>
+              <div>
+                <p class="par">
+                  The Sims 4 Oasi Verde Kit e The Sims 4 Tesori Nascosti Kit
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage33"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>28-mar-2023</p>
+                </div>
+              </div>
+              <h3>Aggiornamento: 28/03/2023</h3>
+              <div>
+                <p class="par">Cose da fare</p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage34"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>27-mar-2023</p>
+                </div>
+              </div>
+              <h3>Aggiornamento: 24/03/2023</h3>
+              <div>
+                <p class="par">
+                  Aggiornamento per console per la parità tra piattaforme
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage35"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>15-mar-2023</p>
+                </div>
+              </div>
+              <h3>
+                Entrate pure! Uno sguardo all'interno delle costruzioni
+                realizzate per Cres…
+              </h3>
+              <div>
+                <p class="par">Perdita della perdita dei denti</p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage36"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>The Sims 4</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>14-mar-2023</p>
+                </div>
+              </div>
+              <h3>Aggiornamento: 14/03/2023</h3>
+              <div>
+                <p class="par">Sei tu a creare The Sims! Con Dzidziak86</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- CONTENUTO BATTLEFIELD -->
+
+        <div class="content" id="content-7">
+          <div class="cardUltimeNovità">
+            <div id="unImage37"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>11-apr-2023</p>
+                </div>
+              </div>
+              <h3>AGGIORNAMENTO 4.1.1 DI BATTLEFIELD 2042</h3>
+              <div>
+                <p class="par">Aggiornamento 4.2, sistema di mira uniforme</p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage38"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>6-apr-2023</p>
+                </div>
+              </div>
+              <h3>Briefing Battlefield - Leviatano in azione</h3>
+              <div>
+                <p class="par">
+                  Miglioramenti all'esperienza di gioco e chat globale
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage39"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>24-mar-2023</p>
+                </div>
+              </div>
+              <h3>AGGIORNAMENTO 4.1.0 DI BATTLEFIELD 2042</h3>
+              <div>
+                <p class="par">
+                  Evento Leviatano in azione, modalità a tempo limitato Shutdown
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage40"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>10-mar-2023</p>
+                </div>
+              </div>
+              <h3>AGGIORNAMENTO 4.0.1 DI BATTLEFIELD 2042</h3>
+              <div>
+                <p class="par">
+                  L'aggiornamento 4.1.0 include nuove armi The Vault,
+                  miglioramenti alla chat, una revisione delle piastre corazzate
+                  e altro ancora!
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage41"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>24-feb-2023</p>
+                </div>
+              </div>
+              <h3>AGGIORNAMENTO 4.0.1 DI BATTLEFIELD 2042</h3>
+              <div>
+                <p class="par">
+                  Miglioramenti all'esperienza di gioco dopo la Stagione 4
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage42"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Battlefield 2042</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>23-feb-2023</p>
+                </div>
+              </div>
+              <h3>AGGIORNAMENTO 4.0.1 DI BATTLEFIELD 2042</h3>
+              <div>
+                <p class="par">
+                  Scopri le novità di All'ultimo momento, la Stagione 4 di
+                  Battlefield 2042
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- CONTENUTO INSIDE -->
+
+        <div class="content" id="content-8">
+          <div class="cardUltimeNovità">
+            <div id="unImage43"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>15-feb-2023</p>
+                </div>
+              </div>
+              <h3>
+                Nel 2022 Electronic Arts è stata nominata in diverse classifiche
+                dei "Migli…
+              </h3>
+              <div>
+                <p class="par">
+                  Electronic Arts è stata premiata per la qualità del suo
+                  ambiente di lavoro.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage44"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>19-set-2022</p>
+                </div>
+              </div>
+              <h3>Festeggiamo i 6 anni dei nostri Purpose and Belief Awards</h3>
+              <div>
+                <p class="par">
+                  Questi valori sono alla base di tutto ciò che facciamo.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage45"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>25-ago-2023</p>
+                </div>
+              </div>
+              <h3>Un'estate di STEAM con EA</h3>
+              <div>
+                <p class="par">
+                  Un post per mettere in luce e omaggiare il sostegno di EA ai
+                  programmi estivi che aiutano i giovani di diversa estrazione a
+                  sviluppare competenze in ambito STEAM (scienza, tecnologia,
+                  ingegneria, arti e matematica).
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage46"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>1-apr-2022</p>
+                </div>
+              </div>
+              <h3>Vieni a costruire il futuro di The Sims a Maxis</h3>
+              <div>
+                <p class="par">
+                  La nostra ambizione: ispirare tutti a creare un mondo migliore
+                  attraverso il gioco creativo
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage47"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>31-mar-2022</p>
+                </div>
+              </div>
+              <h3>
+                Lasciare un segno positivo all'interno e all'esterno dei nostri
+                giochi
+              </h3>
+              <div>
+                <p class="par">
+                  Lasciare un segno positivo all'interno e all'esterno dei
+                  nostri giochi
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="cardUltimeNovità">
+            <div id="unImage48"></div>
+            <section class="cards_texts_container">
+              <div class="title_subtitle_container">
+                <div class="card-title">
+                  <p>Inside EA</p>
+                </div>
+                <div class="cardsub-title">
+                  <p>13-gen-2022</p>
+                </div>
+              </div>
+              <h3>
+                Firemonkeys Studio di EA festeggia i 10 anni di The Sims
+                FreePlay
+              </h3>
+              <div>
+                <p class="par">
+                  Tutto è cominciato realizzando The Sims per dispositivi
+                  mobili: da allora è diventato uno dei titoli preferiti della
+                  serie
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div id="readMore_button_container">
+      <div id="readMore_card_container">
+        <button>Più dettagli</button>
+        <div id="readMore_cards"></div>
       </div>
     </div>
 
@@ -166,6 +1273,6 @@
       <div class="footer1">footer1</div>
       <div class="footer2">footer2</div>
     </footer>
-    <script src="scr"></script>
+    <script src="script.js"></script>
   </body>
 </html>
