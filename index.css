@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Electronic Arts Text", "Verdana", "Helvetica", "Arial", "sans-serif";
+  }
+  
+  .external-container {
+    background-color: var(--s-page-bg);
+  }
+  
+  .container-ea-game {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .ea-game {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    padding: 16px;
+    line-height: 1.15;
+  }
+  
+  .img-container-game {
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+  }
+  
+  .img-container-game img {
+    width: 100%;
+  }
+  
+  .container-last-games {
+    background-color: var(--s-page-bg);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .button-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 50px;
+    border: 2px;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Added border-color transition */
+  
+    p {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  .last-games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: 2px solid ;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .last-games:hover {
+    transform: scale(1.1);
+  }
+  
+  :root {
+    --myColor1: hsla(0, 0%, 0%, 0.325);
+    --myColor2: hsla(0, 0%, 0%, 0.325);
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(to right, var(--myColor1), var(--myColor2));
+    transition: --myColor1 0.3s, --myColor2 0.4s;
+  }
+  
+  .overlay:hover {
+    --myColor1: #0d012dda;
+    --myColor2: #ff4747c9;
+  }
+  
+  .name-container-game:hover img {
+    bottom: 60%;
+  }
+  
+  .name-container-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  .name-container-game img {
+    filter: drop-shadow(8px 7px 23px #000);
+    width: 45%;
+    bottom: 40%;
+    transition-property: bottom;
+    transition-duration: 0.4s;
+    position: absolute;
+  }
+  
+  #apex {
+    width: 31%;
+  }
+  
+  #fifa23 {
+    width: 40%;
+  }
+  
+  .central-text {
+    color: var(--s-page-bg);
+    display: none;
+  }
+  
+  .overlay:hover > .name-container-game > .central-text {
+    display: block;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .last-games {
+      width: 200px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .wrapper-img-game {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .img-container-game {
+      margin: 4%;
+    }
+  
+    .last-games {
+      width: 160px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .wrapper-img-game {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .container-last-games {
+      height: 100px;
+    }
+  
+    .last-games {
+      padding: 12px 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1300px) {
+    .container-ea-game {
+      width: 75%;
+    }
+  }
+  
