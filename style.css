@@ -6,49 +6,6 @@ body {
 
   }
 
-  
-  header {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .nav1 {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px;
-    height: 40px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .nav1 img {
-    margin-left: 10px;
-    width: 20px;
-    height: 20px; 
-  }
-  
-  .nav2 {
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 58px;
-    transition: transform 0.3s ease-in-out;
-    margin-bottom: 50px;
-  }
-  
-  .nav2 a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .nav1.hidden {
-    transform: translateY(-100%);
-  }
   .content{
     padding-top:96px;
     position:relative;
@@ -81,7 +38,7 @@ body {
     left:108px ;
     
   }
- 
+ ç
   .transparentBtn{
     width: 153px;
     height: 51px;
@@ -114,29 +71,8 @@ body {
     font-size: 17px;
   }
   
-  .yearGaming {
-    height: 97px;
-    background-color: rosybrown;
-  }
   
-  .games {
-    height: 1039px;
-    background-color: rosybrown;
-  }
-  
-  .ultimeNovità {
-    height: 93px;
-    background-color: aquamarine;
-  }
-  
-  .nav3 {
-    height: 63px;
-    background-color: chartreuse;
-  }
-  
-  .notizie {
-    height: 1071px;
-  }
+
   
   .EAplay {
     position:relative;
@@ -175,29 +111,3 @@ body {
     font-size: 17px;
 
   }
-  
-  .Giocatori {
-    height: 97px;
-    background-color: rgb(0, 152, 237, 1);
-  }
-  
-  .condizioni {
-    height: 84px;
-    background-color: wheat;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footer1 {
-    height: 151px;
-    background-color: grey;
-  }
-  
-  .footer2 {
-    height: 266px;
-    background-color: aqua;
-  }
-  
