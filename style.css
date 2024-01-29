@@ -711,6 +711,20 @@
     #ultimeNovità-container .content #ultimeNovità-cardContainer .content.visible {
       display: block;
     }
+
+    .readMore {
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      height: 300%;
+
+    }
+    .readMore button {
+      width: 147px;
+      height: 50px;
+
+    }
   }
   #ultimeNovità-container #readMore_button_container {
     display: flex;
@@ -720,6 +734,7 @@
     margin-bottom: 16px;
     width: 100%;
   }
+
   @media (min-width: 639px) {
     #ultimeNovità-container #readMore_button_container {
       align-items: flex-start;
@@ -735,7 +750,7 @@
     width: 100%;
     margin: 0 24px;
   }
-  #ultimeNovità-container #readMore_button_container button {
+  #ultimeNovità-container #readMore_button_container {
     position: absolute;
     top: 50%;
     left: 50%;
