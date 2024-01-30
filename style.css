@@ -156,6 +156,7 @@
     gap: 16px;
     padding: 24px 24px;
   }
+
   @media (min-width: 768px) {
     #ultimeNovità-container .content {
       padding: 24px 16px;
@@ -365,7 +366,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage13 {
       width: 100%;
       height: 12rem;
-      background-image: url(image-uN/image13.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/compete/common/algs-etyntk-year-4.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -374,7 +375,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage14 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/pitchnotes-ucwl-nwsl.jpg.adapt.crop16x9.431p.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/ignite/apex-s19-feature-image-16x9.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -383,7 +384,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage15 {
       width: 100%;
       height: 12rem;
-      background-image: url(image-uN/image15.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/apex-legends-x-ff7/apex-ff7-16x9-thumbnail.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -392,7 +393,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage16 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/wc-predictor-trophy-image-16x9-carousel-1-1.png.adapt.crop16x9.431p.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/compete/common/algs-year-4-partnered-teams.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -401,7 +402,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage17 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image17.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/uprising-event/uprising-16x9-thumbnail.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -410,7 +411,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage18 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/main.jpg.adapt.crop16x9.431p.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/gift-guide-2023/gift-guide-thumbnail.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -419,7 +420,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage19 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image18.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/images/2019/04/ts4-grid-tile-patch-notes-game-update-16x9.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -428,7 +429,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage20 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image19.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/common/ts4-castle-goth-newsroom-1.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -437,7 +438,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage21 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image1.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/common/ts4-q4-social-2560x1440.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -446,7 +447,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage22 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image21.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/common/apac-newsroom-asset.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -455,7 +456,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage23 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image23.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/images/2019/04/ts4-grid-tile-patch-notes-game-update-16x9.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -464,7 +465,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage24 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/main.jpg.adapt.crop16x9.431p.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/common/laundry-list-assets/port-of-marriage.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -473,7 +474,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage25 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image25.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/2024/01/kit-reveal-comeuppance/cap-charcard-comeuppance-thumb.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -482,7 +483,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage26 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image26.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/articles/12-dec/cap-charcard-kelleran-beq-thumb.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -491,7 +492,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage27 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image27.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/articles/11-nov/kit-reveal---ig-12---grogu/cap-charcard-ig12-and-grogu-thumb.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -500,7 +501,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage28 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image28.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/articles/10-october/paz-vizsla/cap-charcard-paz-vizsla-16x19-thumb.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -509,7 +510,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage29 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image29.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/articles/10-october/reveal-marauder/cap-2d-promo-marauder-thumb.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -518,7 +519,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage30 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image30.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/swgoh/common/articles/09---september/october-calendar/thumbnail-10-oct-update.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -527,7 +528,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage31 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image31.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/articles/max-celebration-article/f123hm-max-parcferme.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -536,7 +537,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage32 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image32.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/news/f123-driver-ratings-16x9-06-dec.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -545,7 +546,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage33 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image33.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/articles/patch-note-v115/hm-f1sportsupdate.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -554,7 +555,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage34 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image34.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/articles/sports-update/eas-f123-f1sportsupdate.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -563,7 +564,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage35 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image35.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/news/f123-driver-ratings-16x9-03-sept.png.adapt.crop16x9.431p.png);
       background-position: center;
       background-size: cover;
     }
@@ -572,7 +573,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage36 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image36.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/ea/f1/f1-23/common/articles/patch-note-v110/pj-f123-ned-036-ric.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -581,7 +582,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage37 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image37.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/news/common/bfc-621-u.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -590,7 +591,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage38 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image38.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/news/common/bf2042-u62-112.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -599,7 +600,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage39 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image39.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/common/dev-notes-vehicle-loadout-featured-fpo.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -608,7 +609,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage40 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image40.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/news/images/2023/10/kin-com-u610.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -617,7 +618,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage41 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image41.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/news/s6-mse-dark-protocol/images/2023/10/s6-mse-featuredimage-1920x1080.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -626,7 +627,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage42 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image42.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/news/update-6-0-0/images/2023/10/kin-com-u60-t.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -635,7 +636,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage43 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image43.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/subscription/member-benefits/images/2021/06/eap-member-benefits-nfshpr-16x9.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -644,7 +645,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage44 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image44.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2021/02/nfshp-we-chevrolet-camaro-ss.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -653,7 +654,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage45 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image45.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2020/11/nfshpr-1920x1080-uth-week3-4-mitsubishi-lancer-evolutionx-nologo-web.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -662,7 +663,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage46 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image46.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2020/11/nfshpr-1920x1080-launch-screenshot-1.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -671,7 +672,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage47 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image47.png);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2020/10/nfshpr-1920x1080-uth-week2-gumpert-apollo-s-web.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -680,7 +681,7 @@
     #ultimeNovità-container .content .cardUltimeNovità #unImage48 {
       width: 100%;
       height: 12rem;
-      background-image: url(./image-uN/image48.jpg);
+      background-image: url(https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2020/10/nfshpr-1920x1080-uth-week1-gumpert-apollo-s-nologo.jpg.adapt.crop16x9.431p.jpg);
       background-position: center;
       background-size: cover;
     }
