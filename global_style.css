@@ -1,0 +1,21 @@
+html {
+  --ea-dark: #161616;
+  --ea-light: #f3f3f3;
+  --ea-orange: #f56c2c;
+  --ea-turquoise: #0089cd;
+  --ea-green: #52b043;
+  --playstation-brand-color: #003087;
+  --nintendo-brand-color: #fe0016;
+  --ea-app-brand-color: #ff4747;
+  --ea-success-color: #00dc8f;
+  --ea-error-color: #ff6969;
+  --ea-theme-ea-corporate-header-font-family: "ElectronicArtsDisplay", "Verdana",
+    "Helvetica", "Arial", sans-serif;
+  --ea-theme-ea-corporate-body-font-family: "ElectronicArtsText", "Verdana",
+    "Helvetica", "Arial", sans-serif;
+  --ea-theme-header-font-family: "ElectronicArtsDisplay", "Verdana", "Helvetica",
+    "Arial", sans-serif;
+}
+
+@import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+@import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
